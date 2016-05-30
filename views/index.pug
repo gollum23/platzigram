@@ -1,11 +1,9 @@
 doctype html
 html
   head
-    meta(charset="UTF-8")
-    meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
     link(href='https://fonts.googleapis.com/css?family=Montserrat|Oleo+Script' rel='stylesheet' type='text/css')
-    link(rel='stylesheet' href='css/app.css')
-
+    link(rel='stylesheet' type='text/css' href='css/app.css')
+    link(rel="icon" href="favicon.ico" type="image/x-icon")
     link(rel='apple-touch-icon', sizes='57x57', href='/apple-icon-57x57.png')
     link(rel='apple-touch-icon', sizes='60x60', href='/apple-icon-60x60.png')
     link(rel='apple-touch-icon', sizes='72x72', href='/apple-icon-72x72.png')
@@ -23,6 +21,9 @@ html
     meta(name='msapplication-TileColor', content='#ffffff')
     meta(name='msapplication-TileImage', content='/ms-icon-144x144.png')
     meta(name='theme-color', content='#ffffff')
+
+    meta(name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no')
+    meta(charset='utf-8')
   body
     section#main-container
     footer.site-footer
@@ -34,8 +35,9 @@ html
               li
                 a(href='#!') Español
               li
-                a(href='#!') Ingles
+                a(href='#!') Inglés
           .col.s12.l3.push-l6.center-align
             | © 2016 Platzigram
-    script(src='https://code.jquery.com/jquery-2.2.4.min.js', integrity='sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=', crossorigin='anonymous')
+    script(src='https://code.jquery.com/jquery-2.2.3.min.js', integrity='sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=', crossorigin='anonymous')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js')
+    script(type='application/javascript' src='js/app.js')
