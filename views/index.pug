@@ -2,6 +2,22 @@ doctype html
 html
   head
     meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
     link(href='https://fonts.googleapis.com/css?family=Montserrat|Oleo+Script' rel='stylesheet' type='text/css')
     link(rel='stylesheet' href='./public/css/app.css')
-    meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+  body
+    section#main-container
+    footer.site-footer
+      .container
+        .row
+          .col.s12.l3.center-align
+            a.dropdown-button.btn.btn-flat(href='#', data-activates='dropdown1') Idioma
+            ul#dropdown1.dropdown-content
+              li
+                a(href='#!') Español
+              li
+                a(href='#!') Ingles
+          .col.s12.l3.push-l6.center-align
+            | © 2016 Platzigram
+    script(src='https://code.jquery.com/jquery-2.2.4.min.js', integrity='sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=', crossorigin='anonymous')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js')
