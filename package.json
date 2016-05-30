@@ -21,6 +21,13 @@
   },
   "homepage": "https://github.com/gollum23/platzigram#readme",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "materialize-css": "^0.97.6",
+    "pug": "^2.0.0-alpha8"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1"
   }
 }
