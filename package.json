@@ -1,0 +1,26 @@
+{
+  "name": "platzigram-by-gollum23",
+  "version": "0.1.0",
+  "description": "Proyecto del curso definitivo de JS de Platzi",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gollum23/platzigram.git"
+  },
+  "keywords": [
+    "platzi",
+    "js"
+  ],
+  "author": "Gollum23",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gollum23/platzigram/issues"
+  },
+  "homepage": "https://github.com/gollum23/platzigram#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
