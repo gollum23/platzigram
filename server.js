@@ -13,13 +13,13 @@ app.use(express.static('public'));
 
 // Get route /
 app.get('/', function(req, res) {
-    res.render('index')
+    res.render('index', { 'title': 'Plazigram' })
 });
 app.get('/signup', function(req, res) {
-    res.render('index')
+    res.render('index', { 'title': 'Plazigram - Signup' })
 });
 app.get('/signin', function(req, res) {
-    res.render('index')
+    res.render('index', { 'title': 'Plazigram - Signin' })
 });
 
 // Define port for express server
